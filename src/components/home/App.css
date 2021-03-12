@@ -1,0 +1,32 @@
+.search-user.post-paper{
+	padding-bottom: 20px;
+}
+.search-user img.img-circle{
+	margin-top: 10px;
+}
+.search-user .profile-icon{
+	font-size: 18px;
+  margin-top: 8px !important;
+}
+.search-user .follow{
+	font-size: 14px;
+}
+.search-user span.pull-right{
+	width: calc( 100% - 130px );
+  margin-left: 20px;
+}
+.search-user span.pull-right .description{
+	max-height: 95px;
+	overflow: hidden;
+}
+.search-user .skill-chip{
+	height: 19px !important;
+	font-size: 12px;
+	background-color: #bbb !important;
+}
+.search-user .skill-chip.highlight{
+	background-color: #4caf50 !important;
+}
+.react-photo-gallery--gallery img{
+  background: transparent url('../../assets/img/loading_spinner.gif')  center no-repeat;
+}

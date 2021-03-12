@@ -1,0 +1,10 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.homeslider{
+	overflow: hidden;
+}
+
+.img-responsive{
+	max-width: 100%;
+}

@@ -1,0 +1,53 @@
+.post-paper{
+	margin: 15px 0;
+	padding: 15px 20px;
+}
+
+.post-paper .quill-content{
+	max-height: 300px;
+	overflow-y: hidden;
+}
+
+.post-writer{
+	font-size: 15px;
+	color: initial;
+	margin-right: 20px;
+}
+
+.post-writer>span>small{
+	font-size: 11px;
+}
+
+.post-avatar{
+	width: 40px;
+	vertical-align: bottom;	
+	margin-right: 8px;
+}
+
+.comment-avatar{
+	width: 30px;
+	vertical-align: bottom;
+}
+
+input[type=file]{
+	display: none;
+}
+
+.preview-span{
+	display: inline-block;
+	margin: 10px;
+}
+
+.preview-span img{
+	  vertical-align: top;
+    max-width: 200px;
+    border: 10px solid #dfdfdf;
+    border-radius: 15px 0px 15px 15px;
+}
+
+.comment-div{
+	background-color: #eeeeee;
+	border-radius: 0px 10px 5px;
+	padding: 1px 15px;
+	font-size: 15px;
+}

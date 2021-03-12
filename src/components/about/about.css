@@ -1,0 +1,18 @@
+.about-banner{
+	padding: 100px 0;
+	background-image: url('../../assets/img/aboutuspic.jpg');
+}
+
+.about-container{
+	padding: 100px 0;
+}
+
+@media (min-width: 768px){
+	.about-container p{
+		column-count: 3;		
+	}	
+}
+
+.about-container p{
+	padding: 0 10px;		
+}

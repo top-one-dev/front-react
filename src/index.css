@@ -1,0 +1,46 @@
+body{
+	margin: 0;
+	font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+#root{
+	padding-top: 64px;
+}
+.parallax { 
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+a:-webkit-any-link{
+	text-decoration: none;
+}
+
+.text-right{
+	text-align: right;
+}
+
+.text-left{
+	text-align: left;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.img-responsive{
+	max-width: 100%;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.clearfix{
+	clear: both;
+}

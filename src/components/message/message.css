@@ -1,0 +1,104 @@
+.converstaions, .messagearea{
+	height: calc( 100vh - 60px );
+	overflow-y: hidden;
+	box-shadow: 0 1px 2px rgba(0,0,0,.5);
+}
+.newConversationForm{
+	padding: 20px;
+	margin: 10px 0 0 10px;
+}
+.messagearea{
+	background-color: #eee;
+	padding-right: 20px;
+}
+.messagearea .title{
+  background: #fff;
+  margin: -15px;
+  padding: 20px;
+  padding-top: 35px;
+  box-shadow: 0 0 2px 1px rgba(0,0,0,.2);
+  margin-bottom: 5px;
+  color: #3f51b5;
+}
+.messagelist{
+	margin-right: 20px;
+	overflow-y: scroll;
+	height: calc( 100vh - 215px );
+	padding: 10px 20px;
+}
+.messagelist::-webkit-scrollbar {
+    width: 5px;
+    background: initial;
+}
+.messagelist div>span{
+	margin: 15px 0;
+  padding: 10px 20px;
+  font-size: 15px;
+  display: inline-block;
+  max-width: 45%
+}
+.messagelist div.partner span{
+	background-color: #3f51b5;
+  border-radius: 0px 10px 5px;
+  color: #fff;
+  margin-left: 5px;
+}
+.messagelist div.partner>img.img-circle{
+	width: 50px;
+	vertical-align: top;
+	border: 1px solid white;
+}
+.messagelist div.partner>img.img-circle.online{	
+  box-shadow: 0px 0px 1px 4px green;
+}
+.messagelist div.partner>img.img-circle.offline{	
+  box-shadow: 0px 0px 1px 4px gray;
+}
+.messagelist div span small{
+	display: block;
+	margin-top: -30px;
+	margin-bottom: 15px;
+	color: gray;
+	font-size: 11px;
+}
+.messagelist div.owner span{
+	background-color: #ccc;
+  border-radius: 10px 0px 5px 10px;
+  color: #000;
+  text-align: left;
+}
+.newMessageForm{
+	margin-right: 20px;
+}
+.newMessageForm .message-content{
+	text-indent: 30px;
+}
+.newMessageForm .message-content input{
+	margin-left: 30px;
+}
+.newMessageForm .messageAttach{
+	float: right;
+	margin-top: -50px !important;
+}
+.newMessageForm .preview-attach{
+	 float: right;
+   margin-top: -55px;
+   margin-right: 50px
+}
+.newMessageForm .preview-attach img{
+  max-height: 55px;
+  border-radius: 5px
+}
+.newMessageForm .messageEmoji{
+	float: left;
+	margin-top: -50px !important;
+}
+.newMessageForm .emoji-picker{
+	z-index: 100;
+	top: -333px;
+}
+.newMessageForm .emoji-picker .emoji{
+	width: 25px;
+	height: 25px;
+}
+

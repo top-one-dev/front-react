@@ -1,0 +1,123 @@
+.user-form{
+	text-align: center;
+	margin-top: 50px;
+	padding: 50px;	
+}
+.user-form form{
+	width: 350px;
+	margin: 0 auto;
+}
+
+.user-profile{
+	margin-top: 50px !important;
+}
+
+.user-profile .profile-icon{
+	vertical-align: middle;
+	margin: 10px 5px;
+}
+
+.skill-chip{
+	margin: 3px;
+	height: 24px !important;
+	background-color: #4caf50 !important;
+	color: #fff !important;
+}
+
+.pull-right{
+	float: right;
+}
+
+.login-loading{
+	width: 100px !important;
+	height: 100px !important;
+	margin-top: 50px;
+}
+
+.avatar-img{
+	cursor: pointer;
+}
+
+.quill-content img{
+	max-width: 100%;
+}
+
+.facebook-button{
+	padding: 0;
+	font-size: 14px;
+  font-weight: 500;
+  border-radius: 2px;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+  width: 100%;
+  text-align: left;
+  color: #3C5A99;
+	border: 1px solid transparent;
+	cursor: pointer;
+	transition: all .5s ease;
+	margin-bottom: 10px;
+}
+
+.facebook-button i{
+	font-size: 18px;
+	margin-right: 9px;
+	vertical-align: middle;
+	padding: 10px 15px;
+}
+
+.facebook-button:hover{
+	background-color: #3C5A99;
+	color: #fff;
+}
+
+.google-button{
+	text-transform: uppercase;
+	margin-bottom: 10px;
+	color: #4285F4 !important;
+	transition: all .5s ease;
+}
+.google-button>div{
+	background-color: transparent !important;
+}
+.google-button>div>svg{
+	vertical-align: bottom;
+}
+
+.google-button:hover{
+	background-color: #4285F4 !important;
+	color: #fff !important;
+}
+
+.btn-linkedin{
+	padding: 0;
+	font-size: 14px;
+  font-weight: 500;
+  border-radius: 2px;
+  text-transform: uppercase;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 2px 2px 0px, rgba(0, 0, 0, 0.24) 0px 0px 1px 0px;
+  width: 100%;
+  text-align: left;
+  color: #337ab7 !important;
+	border: 1px solid transparent !important;
+	cursor: pointer;
+	transition: all .5s ease;
+	background-color: #fff !important;
+}
+
+.btn-linkedin i{
+	font-size: 18px;
+	margin-right: 5px;
+	vertical-align: baseline;
+	padding: 10px 15px;
+}
+
+.btn-linkedin:hover{
+	background-color: #337ab7 !important;
+	color: #fff !important;
+}
+
+
+.facebook-button:focus, .google-button:focus, .btn-linkedin:focus{
+	outline:none !important;
+	background-color: #efefef !important;
+}
